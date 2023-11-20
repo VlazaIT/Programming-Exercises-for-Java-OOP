@@ -1,6 +1,6 @@
 // Module 1. Task 3.
 
-package Module1.TaskSet1;
+package TaskSet1;
 
 public class Customer {
     private static int lastId = 0;

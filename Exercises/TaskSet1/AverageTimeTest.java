@@ -1,6 +1,6 @@
 // Module 1. Task 6.
 
-package Module1.TaskSet1;
+package TaskSet1;
 
 public class AverageTimeTest {
     public static void main(String[] args) {

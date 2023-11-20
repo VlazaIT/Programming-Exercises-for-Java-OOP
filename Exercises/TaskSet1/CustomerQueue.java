@@ -1,6 +1,6 @@
 // Module 1. Task 4.
 
-package Module1.TaskSet1;
+package TaskSet1;
 
 import java.util.LinkedList;
 import java.util.Scanner;

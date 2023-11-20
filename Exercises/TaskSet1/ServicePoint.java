@@ -1,6 +1,6 @@
 // Module 1. Task 5.
 
-package Module1.TaskSet1;
+package TaskSet1;
 
 import java.util.LinkedList;
 
