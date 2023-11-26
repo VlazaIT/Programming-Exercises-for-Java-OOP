@@ -1,0 +1,5 @@
+1. Normal Distribution: A classic example is human height. Heights of people in a specific population tend to follow a normal distribution, with most individuals clustered around the average height and fewer people being extremely tall or short. This pattern creates the well-known bell-shaped curve of the normal distribution.
+
+2. Poisson Distribution: An interesting application is in call centers. The number of calls a call center receives during a fixed time period often follows a Poisson distribution. This is because calls usually occur independently of each other, and the average number of calls per time unit can be estimated, which is exactly what the Poisson distribution models.
+
+3. Exponential Distribution: A relatable example is the change kept in one's pocket or purse. The distribution of small currency notes and coins typically follows an exponential pattern, where there are more smaller denominations and fewer larger ones. It's a practical instance of how exponential distribution is observed in everyday life.
