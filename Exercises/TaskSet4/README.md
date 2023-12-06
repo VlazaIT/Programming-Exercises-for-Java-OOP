@@ -36,30 +36,31 @@ Task 3. Design of Two Different Systems with Service Points:
 
 Task 4. Three-Phase Simulation Main Loop Algorithm (Pseudocode):
 
-initialize_simulation()
-schedule_initial_events()
+    initialize_simulation()
+    schedule_initial_events()
 
-while not end_of_simulation:
-    // A-Phase: Advance Time
-    current_time = get_time_of_next_event()
+    while not end_of_simulation:
 
-    // B-Phase: Execute Bound Events
-    for event in get_events_at_current_time():
-        execute_B_event(event)
+        // A-Phase: Advance Time
+        current_time = get_time_of_next_event()
+    
+        // B-Phase: Execute Bound Events
+        for event in get_events_at_current_time():
+            execute_B_event(event)
+    
+        // C-Phase: Execute Conditional Events
+        while true:
+            executed = false
+            for C_event in all_C_events:
+                if condition_for_C_event(C_event):
+                    execute_C_event(C_event)
+                    executed = true
+            if not executed:
+                break
+    
+        update_simulation_state()
 
-    // C-Phase: Execute Conditional Events
-    while true:
-        executed = false
-        for C_event in all_C_events:
-            if condition_for_C_event(C_event):
-                execute_C_event(C_event)
-                executed = true
-        if not executed:
-            break
-
-    update_simulation_state()
-
-print_simulation_results()
+    print_simulation_results()
 
 
 Task 5. Explanation of Simulator Classes:
